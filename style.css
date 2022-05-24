@@ -7,19 +7,19 @@ body {
 }
 
 li {
-    display: inline;
+    display: inline-block;
     text-align: center;
     padding: .5em;
     background-color: white;
     font-size: 13px;
     font-family: source sans pro;
     margin: auto;
-    text-decoration: none;
-    text-underline: none;
-    border-top: 2px;
-    border-bottom: 2px;
-    border-color: #eee;
-;
+    position: sticky;
+   top: 0;
+   z-index: 100;
+    
+    
+
 }
 .newspaper-container {
     width: 700px;
@@ -29,6 +29,7 @@ li {
     margin: auto;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 1em 1em black;
 }
 
 h1{
@@ -39,14 +40,10 @@ h1{
 }
 
 div.more-articles {
-    
     font-family: roboto slab;
-    display: inline-block;
-    width:50px 50px;
-    border: 1em;
-    
-
-    
+    border-top: solid;
+    width: 700px;
+    border-color: #eee;
     
 }
 
@@ -63,4 +60,23 @@ h5 {
 p {
     padding: 2px;
     font-family: roboto slab;
+}
+
+nav{
+    border-top: solid;
+    border-bottom: solid;
+    border-color:#eee;
+    position:relative;
+    position: sticky;
+    top: 0;
+    background-color: white;
+   
+}
+
+section{
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
 }
