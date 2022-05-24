@@ -38,12 +38,16 @@ h1{
 
 }
 
-h4 {
+div.more-articles {
     
     font-family: roboto slab;
-    
+    display: inline-block;
+    width:50px 50px;
+    border: 1em;
     
 
+    
+    
 }
 
 .date {
@@ -58,4 +62,5 @@ h5 {
 
 p {
     padding: 2px;
+    font-family: roboto slab;
 }
